@@ -1,0 +1,24 @@
+{
+  "name": "test_backend",
+  "version": "1.0.0",
+  "description": "This is a test project for backend, which I may later turn into a my JS fully integrated blog post.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Muhammad-Idris24"
+  },
+  "license": "ISC",
+  "author": "Muhammad Idris",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^8.20.0",
+    "nodemon": "^3.1.11"
+  }
+}
